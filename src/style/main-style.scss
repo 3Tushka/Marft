@@ -1,2 +1,9 @@
 @import '../assets/fonts/fira-sans.scss';
 @import '../style/base/variables.scss';
+@import '../style/parts/_header';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
