@@ -1,0 +1,66 @@
+.promo {
+    background: $background;
+
+    .promo-wrapper {
+        padding: 63px;
+        display: flex;
+        justify-content: center;
+        gap: 130px;
+
+        &__item {
+            display: flex;
+            gap: 14px;
+
+            .promo-box {
+                margin: 107px 0 140px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                max-width: 500px;
+
+                &__title {
+                    font-size: 62px;
+                    line-height: 75px;
+                    letter-spacing: -0.02em;
+                    color: $main-text-color;
+                }
+
+                &__subtext {
+                    font-size: $font-grey-text;
+                    color: $submain-grey;
+                    line-height: 30px;
+                }
+
+                &__info {
+                    display: flex;
+
+                    .rating-box {
+                        display: flex;
+                        margin: 0 2% 0 20%;
+                        align-self: center;
+                        border: 1px solid #6e6e6e3d;
+                        padding: 8px;
+                        border-radius: 90px;
+
+                        &__avatar {
+                            text-align: center;
+                            width: 40px;
+                            height: 40px;
+
+                            img {
+                                width: 36px;
+                                height: 36px;
+                                border-radius: 90px;
+                            }
+                        }
+
+                        &__numbers {
+                            text-align: center;
+                            margin: auto 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

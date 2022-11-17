@@ -1,6 +1,9 @@
 @import '../assets/fonts/fira-sans.scss';
 @import '../style/base/variables.scss';
+@import '../style/base/re-use-parts.scss';
+
 @import '../style/parts/_header';
+@import '../style/parts/_promo';
 
 * {
     margin: 0;
