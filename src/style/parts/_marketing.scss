@@ -1,0 +1,65 @@
+.marketing {
+    background-color: $main-text-color;
+
+    &__wrapper {
+        padding: 118px 0;
+        display: flex;
+        justify-content: center;
+
+        .marketing-photo-box {
+            display: flex;
+            align-items: center;
+
+            &__item:nth-child(2) {
+
+                img {
+                    transform: rotatez(10.24deg);
+                    position: relative;
+                    right: 125px;
+                }
+            }
+        }
+
+        .marketing-box {
+            margin: 52px 0;
+            max-width: 466px;
+            color: #fff;
+
+            &__title {
+                font-weight: 400;
+                font-size: 49px;
+                line-height: 64px;
+                margin-bottom: 40px;
+            }
+
+            .marketing-list {
+                margin: 13px 35px;
+                list-style-image: url("/src/assets/images/figures/Correct.png");
+
+                &__item {
+                    font-weight: 500;
+                    line-height: 30px;
+                }
+            }
+
+            &__subtext {
+                font-size: $font-grey-text;
+                line-height: 25px;
+                color: $submain-grey;
+            }
+
+            .marketing-btn {
+                margin-top: 20px;
+                text-align: center;
+                background: #fff;
+                color: $submain-grey;
+            }
+
+            .marketing-btn:hover {
+                background: $main-part-color;
+                cursor: pointer;
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+}
