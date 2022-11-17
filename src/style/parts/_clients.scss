@@ -1,0 +1,44 @@
+.clients-wrapper {
+    margin: 94px 215px 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+
+    .clients-box {
+        max-width: 350px;
+        padding-left: 30px;
+        border-left: 4px solid $main-part-color;
+
+        &__title {
+            margin: 20px 0;
+
+            h3 {
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 35px;
+            }
+        }
+
+        &__subtext {
+            margin: 20px 0;
+        }
+    }
+
+    .clients-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+        gap: 10px;
+        text-align: center;
+        max-height: 195px;
+
+        &__item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px 30px;
+            border: 1px solid #6f6f6f63;
+            max-height: 92px;
+        }
+    }
+}
