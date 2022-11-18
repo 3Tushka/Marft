@@ -1,0 +1,89 @@
+.service {
+    background: $background;
+
+    .service-wrapper {
+        padding: 161px 215px 100px;
+
+        .service-box {
+            margin: 0 auto 70px;
+            text-align: center;
+            max-width: 513px;
+
+            &__title {
+                margin-bottom: 15px;
+
+                h2 {
+                    font-size: 58px;
+                    line-height: 34px;
+                    color: $main-text-color;
+                }
+            }
+
+            &__desc {
+                color: $submain-grey;
+
+                p {
+                    font-size: 22px;
+                    line-height: 30px;
+                }
+            }
+        }
+
+        .service-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+
+            .service-item {
+                background: #EAE4DC;
+                max-width: 370px;
+                padding: 0 62px;
+
+                &__figure {
+                    position: relative;
+                    padding: 20px 0;
+
+                    img {
+                        width: 60px;
+                    }
+                }
+
+                &__title {
+                    margin: 0 12px 10px;
+                    max-width: 266px;
+                    max-height: 80px;
+
+                    h3 {
+                        font-weight: 400;
+                        font-size: 36px;
+                        line-height: 34px;
+                        letter-spacing: -0.02em;
+                    }
+                }
+
+                &__subtext {
+                    color: $submain-grey;
+                    font-weight: 500;
+                    line-height: 30px;
+                }
+
+                &__learn-more {
+                    margin: 30px auto 45px;
+
+                    a {
+                        font-weight: 700;
+                        font-size: 19px;
+                        line-height: 31px;
+                        text-transform: uppercase;
+                        color: $main-text-color;
+                        transition: $all-transition;
+                    }
+
+                    a:hover {
+                        color: $submain-grey;
+                    }
+                }
+            }
+        }
+    }
+}

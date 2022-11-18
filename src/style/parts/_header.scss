@@ -13,7 +13,7 @@
         color: $main-part-color;
         background: transparent;
         border-color: transparent;
-        transition: $nav-transition;
+        transition: $all-transition;
         cursor: pointer;
     }
 
@@ -26,14 +26,14 @@
 .nav-list {
     height: 0;
     overflow: hidden;
-    transition: $nav-transition;
+    transition: $all-transition;
 
     &__item {
         color: $submain-grey;
         font-size: 1rem;
         display: block;
         padding: 0.5rem 1rem;
-        transition: $nav-transition;
+        transition: $all-transition;
     }
 
     &__item:hover {
@@ -110,7 +110,7 @@
             a {
                 margin: 0 0.5rem;
                 color: $main-part-color;
-                transition: $nav-transition;
+                transition: $all-transition;
             }
 
             a:hover {
