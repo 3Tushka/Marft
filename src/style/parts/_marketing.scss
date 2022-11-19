@@ -32,6 +32,12 @@
                 margin-bottom: 40px;
             }
 
+            &__subtext {
+                font-size: $font-grey-text;
+                line-height: 25px;
+                color: $submain-grey;
+            }
+
             .marketing-list {
                 margin: 13px 35px;
                 list-style-image: url("/src/assets/images/figures/Correct.png");
@@ -40,12 +46,6 @@
                     font-weight: 500;
                     line-height: 30px;
                 }
-            }
-
-            &__subtext {
-                font-size: $font-grey-text;
-                line-height: 25px;
-                color: $submain-grey;
             }
 
             .marketing-btn {

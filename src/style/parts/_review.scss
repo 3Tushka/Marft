@@ -1,0 +1,54 @@
+.review {
+
+    .review-wrapper {
+        margin: 90px 280px 160px;
+        display: flex;
+        justify-content: space-evenly;
+
+        .review-item {
+            max-width: 470px;
+
+            &__rating {
+                display: flex;
+            }
+
+            &__text {
+                margin: 5px 0 30px;
+
+                p {
+                    font-weight: 600;
+                    font-size: 42px;
+                    line-height: 47px;
+                }
+            }
+
+            .username {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+
+            }
+
+            .review-photo {
+                width: 400px;
+                height: 494px;
+                background-image: url('/src/assets/images/main-pictures/page-3.png');
+
+                .slack-container {
+                    max-width: 171px;
+                    max-height: 70px;
+                    background: rgba(255, 255, 255, 0.6);
+                    backdrop-filter: blur(12px);
+                    padding: 22.43px 35.75px;
+                    margin: 10px;
+                    position: absolute;
+
+                }
+            }
+        }
+
+        .review-item:nth-child(1) {
+            margin: 65px 0;
+        }
+    }
+}

@@ -4,31 +4,6 @@
     .service-wrapper {
         padding: 161px 215px 100px;
 
-        .service-box {
-            margin: 0 auto 70px;
-            text-align: center;
-            max-width: 513px;
-
-            &__title {
-                margin-bottom: 15px;
-
-                h2 {
-                    font-size: 58px;
-                    line-height: 34px;
-                    color: $main-text-color;
-                }
-            }
-
-            &__desc {
-                color: $submain-grey;
-
-                p {
-                    font-size: 22px;
-                    line-height: 30px;
-                }
-            }
-        }
-
         .service-container {
             display: flex;
             justify-content: center;
@@ -62,9 +37,13 @@
                 }
 
                 &__subtext {
-                    color: $submain-grey;
-                    font-weight: 500;
-                    line-height: 30px;
+                    max-height: 240px;
+
+                    p {
+                        color: $submain-grey;
+                        font-weight: 500;
+                        line-height: 30px;
+                    }
                 }
 
                 &__learn-more {
