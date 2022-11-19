@@ -1,3 +1,25 @@
 .blog-wrapper {
     margin: 160px 215px;
+
+    .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+        .blog-box-nav {
+            text-align: center;
+            max-width: 500px;
+            gap: 20px;
+
+            &__title {
+                font-weight: 400;
+                font-size: 45px;
+            }
+
+            &__desc {
+                color: $submain-grey;
+            }
+        }
+    }
 }

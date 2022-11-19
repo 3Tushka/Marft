@@ -46,3 +46,22 @@ img {
         }
     }
 }
+
+
+.more-link {
+    margin: 0;
+    padding: 0;
+
+    a {
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 31px;
+        text-transform: uppercase;
+        color: $main-text-color;
+        transition: $all-transition;
+    }
+
+    a:hover {
+        color: $submain-grey;
+    }
+}

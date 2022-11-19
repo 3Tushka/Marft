@@ -46,21 +46,9 @@
                     }
                 }
 
-                &__learn-more {
-                    margin: 30px auto 45px;
-
-                    a {
-                        font-weight: 700;
-                        font-size: 19px;
-                        line-height: 31px;
-                        text-transform: uppercase;
-                        color: $main-text-color;
-                        transition: $all-transition;
-                    }
-
-                    a:hover {
-                        color: $submain-grey;
-                    }
+                .more-link {
+                    margin: 30px 0 45px;
+                    padding: 0;
                 }
             }
         }
