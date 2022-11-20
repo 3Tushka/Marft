@@ -63,3 +63,45 @@
         }
     }
 }
+
+@media (min-width:320px) and (max-width:576px) {
+    .marketing {
+
+        &__wrapper {
+            padding: 58px 0 10px;
+            display: flex;
+            flex-direction: column;
+
+            .marketing-photo-box {
+                display: flex;
+                align-items: center;
+
+                &__item:nth-child(2) {
+
+                    img {
+                        transform: rotatez(30deg);
+                        position: relative;
+                        right: 55px;
+                    }
+                }
+
+                &__item:nth-child(1) {
+
+                    img {
+                        transform: rotatez(-30deg);
+                        position: relative;
+                    }
+                }
+            }
+
+            .marketing-box {
+                margin: 52px 0;
+                padding: 0 20px;
+
+                .marketing-btn {
+                    margin: 20px auto;
+                }
+            }
+        }
+    }
+}

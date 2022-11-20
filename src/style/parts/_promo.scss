@@ -64,3 +64,40 @@
         }
     }
 }
+
+@media (min-width: 320px) and (max-width:576px) {
+
+    .promo {
+
+        .promo-wrapper {
+            flex-direction: column;
+            padding: 0 20px;
+
+            &__item {
+                display: flex;
+                gap: 0;
+
+                .promo-box {
+                    display: flex;
+
+                    &__title {
+                        font-size: 42px;
+                        line-height: 55px;
+                    }
+
+                    &__info {
+                        justify-content: center;
+
+                        .rating-box {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            &__item:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+}

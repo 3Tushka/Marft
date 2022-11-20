@@ -133,3 +133,56 @@
         }
     }
 }
+
+@media (min-width:320px) and (max-width:576px) {
+    .footer {
+
+        .footer-wrapper {
+
+            padding: 50px 20px;
+
+            .footer-title-box {
+
+                .footer-socials {
+                    display: flex;
+                    justify-content: center;
+
+                    .social-icons {
+                        display: flex;
+                        list-style: none;
+                    }
+                }
+            }
+
+            .subscribe {
+
+                .subscribe-box {
+                    display: none;
+                }
+            }
+
+            .contact-box {
+                margin: 50px 20px 0;
+                gap: 30px;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+            }
+        }
+
+        .privacy-box {
+            padding: 30px 20px;
+            flex-direction: column-reverse;
+            gap: 30px;
+            align-items: center;
+
+            .privacy-item {
+                gap: 0;
+
+                .privacy-policy:nth-child(2) {
+                    border: none
+                }
+            }
+        }
+    }
+}

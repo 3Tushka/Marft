@@ -42,3 +42,21 @@
         }
     }
 }
+
+@media (min-width:320px) and (max-width:576px) {
+
+    .clients-wrapper {
+        margin: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+
+        .clients-grid {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+        }
+    }
+
+}

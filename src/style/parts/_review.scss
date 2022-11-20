@@ -52,3 +52,32 @@
         }
     }
 }
+
+@media (min-width:320px) and (max-width:576px) {
+
+    .review {
+
+        .review-wrapper {
+            margin: 50px;
+
+            .review-item {
+
+                &__text {
+
+                    p {
+                        font-weight: 500;
+                        font-size: 24px;
+                    }
+                }
+
+                .username {
+                    justify-content: space-evenly;
+                }
+            }
+
+            .review-item:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+}

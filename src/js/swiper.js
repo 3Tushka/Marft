@@ -12,4 +12,14 @@ var swiper = new Swiper(".blog", {
 
     slidesPerView: 2,
     spaceBetween: 76,
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1
+        },
+
+        991: {
+            slidesPerView: 2
+        }
+    }
 });
