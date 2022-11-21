@@ -6,6 +6,7 @@
         display: flex;
         justify-content: center;
         gap: 130px;
+        align-items: center;
 
         &__item {
             display: flex;
@@ -120,4 +121,21 @@
         }
     }
 
+}
+
+@media (min-width:962px) and (max-width:1200px) {
+    .promo {
+        .promo-wrapper {
+
+            &__item {
+
+                .promo-photo-box:nth-child(2) {
+
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
 }

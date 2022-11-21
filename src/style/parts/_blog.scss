@@ -1,5 +1,5 @@
 .blog-wrapper {
-    margin: 160px 215px;
+    margin: 70px;
 
     .blog-box {
         display: flex;
@@ -38,11 +38,5 @@
                 }
             }
         }
-    }
-}
-
-@media (min-width:642px) and (max-width:1281px) {
-    .blog-wrapper {
-        margin: 70px;
     }
 }

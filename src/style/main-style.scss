@@ -2,6 +2,7 @@
 @import '../style/base/variables.scss';
 @import '../style/base/re-use-parts.scss';
 @import '../style/base/swiper.scss';
+@import '../style/base/reset.scss';
 
 @import '../style/parts/_header';
 @import '../style/parts/_promo';
@@ -14,9 +15,3 @@
 @import '../style/parts/_increasing';
 @import '../style/parts/_blog';
 @import '../style/parts/_footer';
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Fira Sans', sans-serif;
-}
