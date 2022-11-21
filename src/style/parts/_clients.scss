@@ -43,7 +43,7 @@
     }
 }
 
-@media (min-width:320px) and (max-width:576px) {
+@media (min-width:320px) and (max-width:641px) {
 
     .clients-wrapper {
         margin: 50px 20px;
@@ -59,4 +59,25 @@
         }
     }
 
+}
+
+@media (min-width:642px) and (max-width:961px) {
+    .clients-wrapper {
+        margin: 50px 60px;
+        gap: 20px;
+
+        .clients-box {
+
+            &__title {
+
+                h3 {
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .clients-grid {
+            grid-template-columns: repeat(2, auto);
+        }
+    }
 }

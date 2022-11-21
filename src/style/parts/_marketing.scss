@@ -64,13 +64,14 @@
     }
 }
 
-@media (min-width:320px) and (max-width:576px) {
+@media (min-width:320px) and (max-width:961px) {
     .marketing {
 
         &__wrapper {
             padding: 58px 0 10px;
             display: flex;
             flex-direction: column;
+            align-items: center;
 
             .marketing-photo-box {
                 display: flex;
@@ -81,7 +82,7 @@
                     img {
                         transform: rotatez(30deg);
                         position: relative;
-                        right: 55px;
+                        right: 30%;
                     }
                 }
 
@@ -90,6 +91,7 @@
                     img {
                         transform: rotatez(-30deg);
                         position: relative;
+                        width: 90%;
                     }
                 }
             }

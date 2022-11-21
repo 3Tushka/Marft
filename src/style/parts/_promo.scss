@@ -65,7 +65,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width:576px) {
+@media (min-width: 320px) and (max-width:641px) {
 
     .promo {
 
@@ -100,4 +100,24 @@
             }
         }
     }
+}
+
+
+@media (min-width:642px) and (max-width:961px) {
+
+    .promo {
+        .promo-wrapper {
+
+            &__item {
+
+                .promo-photo-box {
+
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
 }

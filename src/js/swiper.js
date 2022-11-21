@@ -18,8 +18,11 @@ var swiper = new Swiper(".blog", {
             slidesPerView: 1
         },
 
-        991: {
+        768: {
             slidesPerView: 2
-        }
+        },
+        1025: {
+            slidesPerView: 3
+        },
     }
 });

@@ -24,7 +24,7 @@
     }
 }
 
-@media (min-width:320px) and (max-width:576px) {
+@media (min-width:320px) and (max-width:641px) {
     .blog-wrapper {
         margin: 50px 20px;
 
@@ -38,5 +38,11 @@
                 }
             }
         }
+    }
+}
+
+@media (min-width:642px) and (max-width:1281px) {
+    .blog-wrapper {
+        margin: 70px;
     }
 }
